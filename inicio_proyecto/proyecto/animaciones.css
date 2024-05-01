@@ -1,0 +1,38 @@
+body {
+    background-color: blanchedalmond;
+}
+.contenedor {
+    width: 600px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.elemento {
+    width: 200px;
+    height: 200px;
+    
+    background-color: red;  
+    clip-path: circle(100%);  
+    transition: background-color 2s, clip-path 2s, transform 2s; 
+    animation: animaElemento 3s; 
+}
+.contenedor:hover .elemento{
+    
+    background-color: black;
+    clip-path: circle(20%);
+    transform: translate(100%); /* translateY(50%) se traslad en sentido eje  Y*/
+
+}
+@keyframes animaElemento{
+    from {
+        background-color: black;
+        transform: scale(-3);
+        opacity: .5;
+    }
+    to {
+        background-color: red;
+        transform: scale(1.3);
+        opacity: 1;
+
+    }
+}

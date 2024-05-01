@@ -1,0 +1,27 @@
+ 
+ 
+ JavaScript    != JAVA --> compilado, con un IDE en particular --> toma el código tradece a leng máquina y lo ejecuta. 
+   |    |
+   |    |
+   ¥    |
+Dinámico|
+    |   |
+    |   |
+    |   ¥
+    |   Interpretado: Navegadores interpretan las paginas web , motor V8
+    ¥
+para jugar con la web JS(Node es un entorno de trabajo, es el motor de JS)
+
+C# - JAVA - php ----> Base de Datos
+
+C / C++ ---> Robótica,  arduino
+
+Android --> Mobile (lenguajes: JS -->React Native)
+
+Algoritmos---> una serie de pasos para concretar algún programa o resultado .
+
+Tarea:  ______ investigar la historia de JS y JAVA...
+
+
+
+
